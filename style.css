@@ -194,6 +194,46 @@ img { display: block; max-width: 100%; }
   min-height: 100vh;
 }
 
+.scroll-top-btn {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background: var(--gold);
+  color: var(--dark);
+  font-size: 24px;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+  box-shadow: var(--shadow-card);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+  z-index: 110;
+}
+
+.scroll-top-btn.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.scroll-top-btn:hover {
+  background: #b5850d;
+}
+
+@media (max-width: 900px) {
+  .scroll-top-btn {
+    bottom: 18px;
+    left: 18px;
+  }
+}
+
 /* ── HERO ───────────────────────────────────────────────────────────────────── */
 .hero {
   background: var(--forest);

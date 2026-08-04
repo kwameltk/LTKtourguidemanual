@@ -111,6 +111,21 @@ progressBar.style.cssText = `
 `;
 document.body.appendChild(progressBar);
 
+const scrollTopBtn = document.querySelector('.scroll-top-btn');
+if (scrollTopBtn) {
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 360) {
+      scrollTopBtn.classList.add('show');
+    } else {
+      scrollTopBtn.classList.remove('show');
+    }
+  }, { passive: true });
+
+  scrollTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
 window.addEventListener('scroll', () => {
   const scrollTop  = window.scrollY;
   const docHeight  = document.documentElement.scrollHeight - window.innerHeight;
