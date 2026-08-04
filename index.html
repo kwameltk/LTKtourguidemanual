@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tour Guide Manual — LTK Tours</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── SIDEBAR NAV ─────────────────────────────────────────────────────── -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="logo-mark">LTK</div>
+      <div class="logo-text">
+        <span class="logo-title">Tour Guide</span>
+        <span class="logo-sub">Manual</span>
+      </div>
+      <button class="sidebar-close" id="sidebarClose" aria-label="Close menu">✕</button>
+    </div>
+
+    <div class="nav-section-label">Core Operations</div>
+    <ul class="nav-list">
+      <li><a href="#pickups" class="nav-link active" data-section="pickups">
+        <span class="nav-icon">🚐</span> Pick-Ups
+      </a></li>
+      <li><a href="#departures" class="nav-link" data-section="departures">
+        <span class="nav-icon">👋</span> Departures
+      </a></li>
+      <li><a href="#routes" class="nav-link" data-section="routes">
+        <span class="nav-icon">🗺</span> Routes & Highlights
+      </a></li>
+    </ul>
+
+    <div class="nav-section-label">Kwahu Knowledge</div>
+    <ul class="nav-list">
+      <li><a href="#ghana-talks" class="nav-link" data-section="ghana-talks">
+        <span class="nav-icon">🇬🇭</span> Ghana Talks
+      </a></li>
+      <li><a href="#kwahu-people" class="nav-link" data-section="kwahu-people">
+        <span class="nav-icon">👑</span> Kwahu People & Clans
+      </a></li>
+      <li><a href="#communities" class="nav-link" data-section="communities">
+        <span class="nav-icon">🏘</span> Towns & Communities
+      </a></li>
+      <li><a href="#culture" class="nav-link" data-section="culture">
+        <span class="nav-icon">🥁</span> Culture & Daily Life
+      </a></li>
+    </ul>
+
+    <div class="nav-section-label">Attractions</div>
+    <ul class="nav-list">
+      <li><a href="#attractions" class="nav-link" data-section="attractions">
+        <span class="nav-icon">⛰</span> All Attractions
+      </a></li>
+      <li><a href="#interpretation" class="nav-link" data-section="interpretation">
+        <span class="nav-icon">🎙</span> Guide Interpretation
+      </a></li>
+    </ul>
+
+    <div class="nav-section-label">Community</div>
+    <ul class="nav-list">
+      <li><a href="#csr" class="nav-link" data-section="csr">
+        <span class="nav-icon">🌱</span> CSR Initiatives
+      </a></li>
+    </ul>
+
+    <div class="nav-section-label">Professional Skills</div>
+    <ul class="nav-list">
+      <li><a href="professional.html" class="nav-link nav-link-page">
+        <span class="nav-icon">⭐</span> Getting Great Reviews
+        <span class="nav-badge">New</span>
+      </a></li>
+    </ul>
+
+    <div class="sidebar-footer">
+      <div class="sidebar-footer-text">LTK Tours · Kwahu, Ghana</div>
+    </div>
+  </nav>
+
+  <!-- ── MOBILE TOP BAR ─────────────────────────────────────────────────── -->
+  <header class="topbar">
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="topbar-title">Tour Guide Manual</div>
+    <a href="professional.html" class="topbar-cta">⭐ Reviews Guide</a>
+  </header>
+
+  <!-- ── OVERLAY ────────────────────────────────────────────────────────── -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- ── MAIN CONTENT ───────────────────────────────────────────────────── -->
+  <main class="main" id="main">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-eyebrow">LTK Tours · Kwahu, Eastern Region</div>
+      <h1 class="hero-title">Tour Guide<br><em>Manual</em></h1>
+      <p class="hero-sub">Everything you need to prepare for your role as a professional LTK Tours guide. Study each section, understand the content, and be ready to bring Kwahu to life for every visitor you meet.</p>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">7</span><span class="stat-label">Sections</span></div>
+        <div class="stat"><span class="stat-num">15+</span><span class="stat-label">Attractions</span></div>
+        <div class="stat"><span class="stat-num">10</span><span class="stat-label">Kwahu Towns</span></div>
+        <div class="stat"><span class="stat-num">8</span><span class="stat-label">Akan Clans</span></div>
+      </div>
+      <a href="professional.html" class="hero-cta-secondary">→ Read the Getting Great Reviews Guide</a>
+    </section>
+
+    <!-- ── PICK-UPS ──────────────────────────────────────────────────────── -->
+    <section class="content-section" id="pickups">
+      <div class="section-label">Core Operations</div>
+      <h2 class="section-title">🚐 Pick-Ups</h2>
+      <p class="section-intro">Pick-ups are your first impression. Every location requires a slightly different approach — know your context before the client arrives.</p>
+
+      <div class="card-grid">
+
+        <div class="card card--accent">
+          <div class="card-tag">From Nkawkaw</div>
+          <h3 class="card-title">Picking Up from Nkawkaw</h3>
+          <p>Nkawkaw is the business heart of Kwahu — the lowland gateway where trade began, anchored by a historic train station connecting Kumasi, Koforidua, and Accra. Use this journey to differentiate the low ridge from the mountain plateau above.</p>
+          <div class="tip-box">
+            <span class="tip-icon">💡</span>
+            <p>Explain that Nkawkaw was originally a smaller settlement below Obomeng — parents descending the mountain to farm gradually turned it into a commercial hub. Cocoa was the key cash crop that started it all.</p>
+          </div>
+          <ul class="content-list">
+            <li>Introduce Nkawkaw as the earliest Kwahu settlement and trade hub</li>
+            <li>Explain the train station's historic role connecting major Ghanaian cities</li>
+            <li>Highlight the contrast between the lowland business district and the mountain top</li>
+            <li>Use the journey up the mountain as natural storytelling — the plateau surprise is powerful</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">From Accra</div>
+          <h3 class="card-title">Picking Up from Accra</h3>
+          <p>A long corridor — roughly 2.5 to 3 hours — that passes through Ghana's agricultural heartland. Begin interpretation from the moment the vehicle leaves Accra.</p>
+          <div class="tip-box">
+            <span class="tip-icon">💡</span>
+            <p>The Accra–Kwahu drive is not dead time. It is the opening chapter of the experience. Use it deliberately.</p>
+          </div>
+          <ul class="content-list">
+            <li>Introduce yourself and communicate the full travel time and possible traffic variations</li>
+            <li>Name key landmarks: Nsawam, Suhum, Bunsu, Akyem area, Oframase, then Nkawkaw</li>
+            <li>Highlight the Eastern Corridor — Koforidua as capital, cocoa farming, palm plantations</li>
+            <li>Mention potential detour attractions: Aboretuom Eco Park, Umbrella Rock, Three-Headed Palm Tree, Koforidua Beads Market</li>
+            <li>Build anticipation for the mountain ascent before reaching Nkawkaw</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">From Hotel / Homestay</div>
+          <h3 class="card-title">Picking Up from Hotel or Homestay</h3>
+          <p>Mostly for domestic tourists already lodged in Kwahu. You may join their vehicle — either with your own seat or sharing — and your job from the first moment is to make the day feel welcoming.</p>
+          <ul class="content-list">
+            <li>Introduce yourself and LTK Tours clearly and warmly</li>
+            <li>Communicate the day's itinerary — note it is often flexible, so describe the spirit rather than a fixed schedule</li>
+            <li>Be high energy: this sets the tone for the day</li>
+            <li>Open car doors for tourists where possible — small gestures build early rapport</li>
+            <li>Mention any community activity happening that day (funerals, festivals) so tourists understand what they may encounter</li>
+          </ul>
+          <div class="tip-box">
+            <span class="tip-icon">🤝</span>
+            <p>Friendliness from the start opens the door for open conversation and tips later in the day.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">From Mpraeso</div>
+          <h3 class="card-title">Picking Up from Mpraeso (Designated Point)</h3>
+          <p>This requires the highest level of time discipline. The tour guide must arrive before the tourist — always. Everything counts from the first second: your appearance, your posture, your greeting.</p>
+          <ul class="content-list">
+            <li>Arrive at the pickup point before the tourist — no exceptions</li>
+            <li>Introduce yourself and give an itinerary update</li>
+            <li>Ask how they are doing; gauge their energy level</li>
+            <li>If hiking is planned: <em>"Are you excited? Have you done hiking like this before?"</em></li>
+            <li>Maintain eye contact throughout — it builds trust for the whole day</li>
+          </ul>
+          <div class="callout callout--gold">
+            <strong>Remember:</strong> Tourists write reviews based on every interaction — from first look to final goodbye. Your punctuality, demeanor, and attitude are already part of the score.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── DEPARTURES ────────────────────────────────────────────────────── -->
+    <section class="content-section" id="departures">
+      <div class="section-label">Core Operations</div>
+      <h2 class="section-title">👋 Departures</h2>
+      <p class="section-intro">How you say goodbye matters as much as how you say hello. A clean, professional departure protects the company, the tourist's experience, and your own reputation.</p>
+
+      <div class="card-grid">
+
+        <div class="card card--accent">
+          <div class="card-tag">Hotel Departure</div>
+          <h3 class="card-title">Departing from Hotel</h3>
+          <ul class="content-list">
+            <li>Create a proper goodbye moment — do not rush away</li>
+            <li>Express genuine gratitude for the tourist choosing LTK Tours</li>
+            <li>Mention that a review link will be sent to them — encourage honest feedback</li>
+            <li>Confirm payment with the group leader before leaving — always check with Kwame (Customer Service)</li>
+            <li>Do not solicit tips — be natural, be warm, and tips will follow your service quality</li>
+          </ul>
+          <div class="callout callout--red">
+            <strong>Financial Rule:</strong> If tourists give you money, deposit it into the LTK Tours bank account immediately — same day, in town. No exceptions. Contact Customer Service via WhatsApp right after the tour. SMS if WhatsApp is unavailable.
+          </div>
+          <p class="mt-1">Company Contact: <strong>0545748380</strong></p>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">Nkawkaw Station</div>
+          <h3 class="card-title">Departing from Nkawkaw Station</h3>
+          <ul class="content-list">
+            <li>Take the Atibie road — point out Atibie Government Hospital and midwifery school</li>
+            <li>Show the "rich people area" housing on the left side</li>
+            <li>Stop briefly for tourists to photograph or view the other side of Odweanoma Mountain</li>
+            <li>About one hour before departure, ask if tourists need food — arrange ahead where possible by sharing food details with Customer Service</li>
+            <li>At the station, help tourists get a bus and ensure loaders do not overcharge for bags — bargain on their behalf</li>
+            <li>Help tourists board and secure their luggage before saying goodbye</li>
+            <li>Direct tourists to toilet facilities — and let them know honestly if conditions are basic</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">En Route Departure</div>
+          <h3 class="card-title">Departing En Route (Vehicle Drop-Off)</h3>
+          <p>When the tourist's vehicle will drop you off along the way back to their hotel, handle payment before you exit the vehicle.</p>
+          <ul class="content-list">
+            <li>Remind the group leader about payment — reference the invoice already shared</li>
+            <li>Keep the conversation friendly — this is not a transaction moment, it is a final connection moment</li>
+            <li>Communicate clearly with Customer Service after your drop-off</li>
+          </ul>
+          <div class="tip-box">
+            <span class="tip-icon">💡</span>
+            <p>The moment you are dropped off is not the end of your professional responsibility. Confirm payment and report to Customer Service the same day.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── ROUTES ────────────────────────────────────────────────────────── -->
+    <section class="content-section" id="routes">
+      <div class="section-label">Core Operations</div>
+      <h2 class="section-title">🗺 Routes & Highlights</h2>
+      <p class="section-intro">The journey is part of the product. Start interpreting from the moment the vehicle moves. Every road tells a story.</p>
+
+      <div class="route-list">
+
+        <div class="route-card">
+          <div class="route-header">
+            <div class="route-duration">~2.5–3 hrs</div>
+            <h3 class="route-name">Accra → Nkawkaw</h3>
+          </div>
+          <p>Ghana's transition from coastal urban life into the lush forest belt of the Eastern Region. Watch vegetation shift from coastal plains into semi-deciduous forest.</p>
+          <div class="route-stops">
+            <span class="stop">Nsawam</span>
+            <span class="stop-arrow">→</span>
+            <span class="stop">Suhum</span>
+            <span class="stop-arrow">→</span>
+            <span class="stop">Bunso</span>
+            <span class="stop-arrow">→</span>
+            <span class="stop">Anyinam</span>
+            <span class="stop-arrow">→</span>
+            <span class="stop">Koforidua Jcn</span>
+            <span class="stop-arrow">→</span>
+            <span class="stop">Nkawkaw</span>
+          </div>
+          <p class="route-talk"><strong>Talk about:</strong> Cocoa farming, palm plantations, roadside fruit markets, Eastern Region as Ghana's agricultural heartland. Beads market in Koforidua. Umbrella Rock. Three-Headed Palm.</p>
+        </div>
+
+        <div class="route-card route-card--highlight">
+          <div class="route-header">
+            <div class="route-duration">20–30 min</div>
+            <h3 class="route-name">Nkawkaw → Kwahu Mountain Ascent</h3>
+          </div>
+          <p>One of the most dramatic moments of every tour. Guests are climbing one of Ghana's highest inhabited mountain ranges — build the excitement.</p>
+          <ul class="content-list mt-1">
+            <li>Hairpin bends engineered into the mountainside</li>
+            <li>Beautiful valleys visible below</li>
+            <li>Thick forest vegetation closing in</li>
+            <li>Noticeably cooler temperatures as elevation increases</li>
+            <li>Panoramic viewpoints overlooking Nkawkaw town</li>
+          </ul>
+          <div class="tip-box">
+            <span class="tip-icon">🏔</span>
+            <p>This is when to explain why Kwahu is called <strong>"The Mountain Kingdom of Ghana."</strong> Encourage guests to appreciate the engineering behind the road construction.</p>
+          </div>
+        </div>
+
+        <div class="route-card">
+          <div class="route-header">
+            <div class="route-duration">Plateau</div>
+            <h3 class="route-name">Exploring the Kwahu Towns</h3>
+          </div>
+          <p>Once on the plateau, explain that Kwahu is not one town but a collection of historic communities sharing one traditional authority and Akan heritage.</p>
+          <div class="towns-grid">
+            <span class="town-tag">Mpraeso</span>
+            <span class="town-tag">Abetifi</span>
+            <span class="town-tag">Obomeng</span>
+            <span class="town-tag">Obo</span>
+            <span class="town-tag">Nkwatia</span>
+            <span class="town-tag">Tafo</span>
+            <span class="town-tag">Twenedurase</span>
+            <span class="town-tag">Pepease</span>
+            <span class="town-tag">Aduamoa</span>
+            <span class="town-tag">Abene</span>
+          </div>
+        </div>
+
+        <div class="route-card">
+          <div class="route-header">
+            <div class="route-duration">Key Routes</div>
+            <h3 class="route-name">LTK Tour Routes</h3>
+          </div>
+          <div class="route-list-simple">
+            <div class="route-item">🚐 Nkawkaw to Homestay</div>
+            <div class="route-item">🏨 Homestay / Hostel / Hotel to Attractions</div>
+            <div class="route-item">📍 Mpraeso to Twenedurase</div>
+            <div class="route-item">📍 Mpraeso to Kwahu Tafo / Nteso</div>
+            <div class="route-item">📍 Mpraeso to Odweanoma</div>
+            <div class="route-item">📍 Kwahu Tafo Bypass to Abetifi</div>
+            <div class="route-item">📍 Mpraeso to Abetifi</div>
+            <div class="route-item">🏨 Hotel to Attractions</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── GHANA TALKS ───────────────────────────────────────────────────── -->
+    <section class="content-section" id="ghana-talks">
+      <div class="section-label">Kwahu Knowledge</div>
+      <h2 class="section-title">🇬🇭 Ghana Talks</h2>
+      <p class="section-intro">Tourists ask about Ghana. Know the answers — especially how Kwahu fits into the bigger national picture.</p>
+
+      <div class="card-grid">
+
+        <div class="card">
+          <div class="card-tag">Government & Politics</div>
+          <h3 class="card-title">Kwahu & National Government</h3>
+          <ul class="content-list">
+            <li>Kwahu has produced prominent national figures including the Chief of Staff</li>
+            <li>Kwahu Easter is a nationally recognised annual celebration — one of the country's biggest</li>
+            <li>The Kwahu Business Forum bridges banking and service companies with Kwahu entrepreneurs — an important development platform</li>
+          </ul>
+        </div>
+
+        <div class="card card--accent">
+          <div class="card-tag">Location</div>
+          <h3 class="card-title">Where Kwahu Sits in Ghana</h3>
+          <p>Kwahu is located in the Eastern Region along the Nkawkaw–Konongo highway, occupying the highest section of the Kwahu Plateau — approximately <strong>450 to 800 metres above sea level.</strong></p>
+          <p class="mt-1">It sits almost midway between Accra and Kumasi, making it one of Ghana's most accessible destinations for both domestic and international visitors.</p>
+          <div class="route-stops mt-1">
+            <span class="stop">Nkawkaw</span>
+            <span class="stop-arrow">→</span>
+            <span class="stop">Mpraeso</span>
+            <span class="stop-arrow">→</span>
+            <span class="stop">Abetifi</span>
+            <span class="stop-arrow">→</span>
+            <span class="stop">Obo</span>
+            <span class="stop-arrow">→</span>
+            <span class="stop">Konongo</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">Economy</div>
+          <h3 class="card-title">Kwahu's Economic Profile</h3>
+          <ul class="content-list">
+            <li><strong>Commerce:</strong> National reputation for producing some of Ghana's biggest traders and entrepreneurs</li>
+            <li><strong>Agriculture:</strong> Cocoa, maize, cassava, plantain, yam, vegetables, fruits</li>
+            <li><strong>Tourism:</strong> Caves, waterfalls, hiking, paragliding, Easter Festival — thousands of visitors annually</li>
+            <li><strong>Real Estate:</strong> Impressive private homes built by diaspora and returning entrepreneurs</li>
+            <li><strong>Small Manufacturing:</strong> Local crafts, pottery, and food production</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── KWAHU PEOPLE ──────────────────────────────────────────────────── -->
+    <section class="content-section" id="kwahu-people">
+      <div class="section-label">Kwahu Knowledge</div>
+      <h2 class="section-title">👑 Kwahu People & Clans</h2>
+      <p class="section-intro">Understanding who the Kwahu people are — their origin, values, and governance — is essential for any guide who wants to give tourists a deeper experience.</p>
+
+      <div class="card-grid">
+
+        <div class="card card--accent">
+          <div class="card-tag">Identity</div>
+          <h3 class="card-title">Who Are the Kwahu People?</h3>
+          <p>The Kwahu are an Akan subgroup who migrated from Bono and Ashanti territories centuries ago and settled on the Kwahu Plateau. They speak Twi (Kwahu dialect) and practice a <strong>matrilineal system</strong> — family lineage passes through the mother.</p>
+          <div class="fact-grid">
+            <div class="fact-item"><span class="fact-val">Akan</span><span class="fact-label">Ethnic Group</span></div>
+            <div class="fact-item"><span class="fact-val">Twi</span><span class="fact-label">Language</span></div>
+            <div class="fact-item"><span class="fact-val">Matrilineal</span><span class="fact-label">Inheritance</span></div>
+            <div class="fact-item"><span class="fact-val">Christianity</span><span class="fact-label">Dominant Faith</span></div>
+          </div>
+          <p class="mt-1">Known across Ghana for: <strong>Entrepreneurship · Education · Commerce · Hospitality · Community Development</strong></p>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">Traditional Leadership</div>
+          <h3 class="card-title">Kwahu Paramountcy</h3>
+          <ul class="content-list">
+            <li>The Kwahu Traditional Area is headed by the <strong>Kwahumanhene</strong> (Paramount Chief)</li>
+            <li>The paramount stool is located in <strong>Abene</strong> — the traditional capital</li>
+            <li>The current paramountcy belongs to the <strong>Bretuo Clan</strong></li>
+            <li>Each town has its own divisional chief, all recognising the Kwahumanhene's authority</li>
+            <li>The Kwahumanhene preserves customary law, settles disputes, and promotes development</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">Clan System</div>
+          <h3 class="card-title">The 8 Akan Clans (Abusua)</h3>
+          <p class="mb-1">Each Kwahu person belongs to one of eight principal clans. Clan membership is inherited through the mother and connects people across all Akan communities in Ghana.</p>
+          <div class="clans-grid">
+            <div class="clan-tag">Oyoko</div>
+            <div class="clan-tag">Bretuo</div>
+            <div class="clan-tag">Aduana</div>
+            <div class="clan-tag">Agona</div>
+            <div class="clan-tag">Asene</div>
+            <div class="clan-tag">Asona</div>
+            <div class="clan-tag">Asakyiri</div>
+            <div class="clan-tag">Ekuona</div>
+          </div>
+          <div class="tip-box mt-1">
+            <span class="tip-icon">💡</span>
+            <p>Members of the same clan regard each other as family — even if they live in different towns or regions. This connects Kwahu deeply to the Ashanti Kingdom and other Akan states.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">Ethnicity</div>
+          <h3 class="card-title">Ethnicity & Religion</h3>
+          <ul class="content-list">
+            <li>Belong to the Akan ethnic group — Ghana's largest ethnolinguistic group</li>
+            <li>Share close ties with the Ashanti Kingdom (common language, clans, customs)</li>
+            <li>Christianity is dominant; traditional customs remain important in festivals and ceremonies</li>
+            <li>English widely spoken alongside Twi — helpful for international visitors</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── COMMUNITIES ───────────────────────────────────────────────────── -->
+    <section class="content-section" id="communities">
+      <div class="section-label">Kwahu Knowledge</div>
+      <h2 class="section-title">🏘 Towns & Communities</h2>
+      <p class="section-intro">Each Kwahu town has its own identity. Know them — tourists will ask about every town they pass through.</p>
+
+      <div class="towns-detail-grid">
+
+        <div class="town-card">
+          <div class="town-name">Abene</div>
+          <div class="town-role">Traditional Capital</div>
+          <p>Seat of the Kwahu Paramount Chief. Centre of traditional governance and royal ceremonies for the entire Kwahu Traditional Area.</p>
+        </div>
+
+        <div class="town-card town-card--highlight">
+          <div class="town-name">Mpraeso</div>
+          <div class="town-role">Administrative Capital</div>
+          <p>Administrative capital of Kwahu South Municipality. Home to government institutions, schools, businesses, and hotels. The primary gateway for tourism activities.</p>
+        </div>
+
+        <div class="town-card">
+          <div class="town-name">Obomeng</div>
+          <div class="town-role">Cultural Heritage</div>
+          <p>One of the oldest Kwahu settlements. Known for rich cultural heritage, Easter celebrations, storytelling traditions, and community tourism initiatives.</p>
+        </div>
+
+        <div class="town-card">
+          <div class="town-name">Obo</div>
+          <div class="town-role">Commerce & Education</div>
+          <p>Known for education, commerce, and nearby tourism attractions. Popular during Easter. Strong entrepreneurial community.</p>
+        </div>
+
+        <div class="town-card">
+          <div class="town-name">Abetifi</div>
+          <div class="town-role">Elevation & Health</div>
+          <p>One of Ghana's coolest towns due to its high elevation. Known for agriculture, education, and healthcare — home to the Presbyterian Hospital.</p>
+        </div>
+
+        <div class="town-card">
+          <div class="town-name">Nkwatia</div>
+          <div class="town-role">Commerce & Mining</div>
+          <p>Historically known for commerce and mining. A vibrant commercial centre connecting many surrounding communities.</p>
+        </div>
+
+        <div class="town-card">
+          <div class="town-name">Kwahu Tafo</div>
+          <div class="town-role">Farming & Tourism</div>
+          <p>Known for farming, trading, and traditional leadership. A growing centre for community development and tourism.</p>
+        </div>
+
+        <div class="town-card town-card--highlight">
+          <div class="town-name">Twenedurase</div>
+          <div class="town-role">Adventure Hub</div>
+          <p>Home to the famous <strong>Nkofieho Cave of Life</strong> — one of Kwahu's premier adventure attractions. Key gateway to eco-tourism and hiking.</p>
+        </div>
+
+        <div class="town-card">
+          <div class="town-name">Pepease</div>
+          <div class="town-role">Historic Settlement</div>
+          <p>One of the oldest settlements on the plateau. Known for farming and traditional cultural practices.</p>
+        </div>
+
+        <div class="town-card">
+          <div class="town-name">Nkawkaw</div>
+          <div class="town-role">Gateway & Business Hub</div>
+          <p>The commercial gateway to Kwahu. Largest business town — corporate offices, insurance, large-scale trading. Historic train station connecting Accra, Kumasi, and Koforidua.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── CULTURE ───────────────────────────────────────────────────────── -->
+    <section class="content-section" id="culture">
+      <div class="section-label">Kwahu Knowledge</div>
+      <h2 class="section-title">🥁 Culture & Daily Life</h2>
+      <p class="section-intro">Set expectations for visitors before they arrive. A prepared tourist is a happy tourist.</p>
+
+      <div class="card-grid">
+
+        <div class="card">
+          <div class="card-tag">Traditions</div>
+          <h3 class="card-title">Culture</h3>
+          <p>Kwahu is deeply rooted in Akan traditions — respect for elders, traditional leadership, family systems, and cultural heritage all remain central to daily life.</p>
+          <p class="mt-1">Visitors may witness naming ceremonies, funerals, church activities, festivals, and chieftaincy events. Encourage guests to observe respectfully and ask permission before photographing.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">People</div>
+          <h3 class="card-title">The Kwahu People</h3>
+          <p>Known across Ghana for being <strong>hardworking, entrepreneurial, hospitable, and community-oriented.</strong> Many operate businesses across the country but maintain strong ties to their hometowns.</p>
+          <p class="mt-1">English and Twi are both widely spoken — international tourists will find communication easy.</p>
+        </div>
+
+        <div class="card card--accent">
+          <div class="card-tag">Architecture</div>
+          <h3 class="card-title">Big Buildings & Modern Homes</h3>
+          <p>Many visitors are surprised by the impressive homes throughout Kwahu. Explain: these are built by successful entrepreneurs and diaspora Kwahus investing in their ancestral communities.</p>
+          <p class="mt-1">During Easter, these homes become family gathering places. The buildings represent <strong>both personal success and deep community attachment.</strong></p>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">Animals</div>
+          <h3 class="card-title">Household Animals</h3>
+          <p>Expect chickens, goats, sheep, ducks, guinea fowls, and occasionally cattle moving freely — especially in rural areas. This is normal community life.</p>
+          <p class="mt-1">Advise visitors to drive cautiously through villages and avoid feeding animals without the owner's permission.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">Sound & Life</div>
+          <h3 class="card-title">Music & Community Life</h3>
+          <p>Kwahu communities are lively — gospel music from churches, traditional drumming during ceremonies, contemporary Ghanaian music from shops and homes.</p>
+          <p class="mt-1">During Easter, the atmosphere is electric: concerts, street celebrations, and cultural performances draw visitors from across Ghana and the diaspora.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── ATTRACTIONS ───────────────────────────────────────────────────── -->
+    <section class="content-section" id="attractions">
+      <div class="section-label">Attractions</div>
+      <h2 class="section-title">⛰ All Attractions</h2>
+      <p class="section-intro">Know every attraction deeply. Visitors may forget names — but they never forget the story you told them.</p>
+
+      <div class="attractions-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="adventure">Adventure</button>
+        <button class="filter-btn" data-filter="nature">Nature</button>
+        <button class="filter-btn" data-filter="cultural">Cultural</button>
+        <button class="filter-btn" data-filter="viewpoint">Viewpoints</button>
+      </div>
+
+      <div class="attractions-grid" id="attractionsGrid">
+
+        <div class="attraction-card" data-type="adventure">
+          <div class="attraction-icon">🕳</div>
+          <h3 class="attraction-name">Nkofieho Cave (Cave of Life)</h3>
+          <div class="attraction-type-tag">Adventure · Cultural</div>
+          <p>Narrow tunnels, underground chambers, and ancient rock formations in Twenedurase. Visitors crawl, climb, and navigate through confined spaces. Deep cultural significance — the cave symbolises courage, survival, and hope. Wish-making is part of the experience.</p>
+          <div class="tip-box">
+            <span class="tip-icon">🎙</span>
+            <p>Guides play an essential safety role here. Always brief visitors on what to expect physically before entering.</p>
+          </div>
+        </div>
+
+        <div class="attraction-card" data-type="nature">
+          <div class="attraction-icon">💧</div>
+          <h3 class="attraction-name">Butuase Waterfalls</h3>
+          <div class="attraction-type-tag">Nature · Eco-Tourism</div>
+          <p>Hidden within lush forest. Short forest walk leads to the falls — flowing most of the year, strongest in rainy season. Visitors relax, photograph, and experience rich biodiversity.</p>
+          <div class="tip-box">
+            <span class="tip-icon">🌿</span>
+            <p>Talk about the ecological role of Kwahu's forests as watersheds supporting both wildlife and nearby communities.</p>
+          </div>
+        </div>
+
+        <div class="attraction-card" data-type="adventure">
+          <div class="attraction-icon">⛰</div>
+          <h3 class="attraction-name">Bruku God Hiking</h3>
+          <div class="attraction-type-tag">Adventure · Culture</div>
+          <p>Steep climbs, rocky pathways, and spectacular summit views. Along the trail, share local folklore associated with the mountain and traditional beliefs. One of the best panoramic viewpoints in the municipality.</p>
+        </div>
+
+        <div class="attraction-card" data-type="viewpoint">
+          <div class="attraction-icon">👁</div>
+          <h3 class="attraction-name">Hidden View (Prayer Mountain)</h3>
+          <div class="attraction-type-tag">Viewpoint · Spiritual</div>
+          <p>A peaceful location used for personal reflection, prayer, and meditation. Beyond religious significance, it offers spectacular hidden viewpoints over valleys, forests, and distant communities. Cool mountain air and quiet surroundings.</p>
+          <div class="tip-box">
+            <span class="tip-icon">🙏</span>
+            <p>Respect the spiritual nature of this site. Speak quietly and guide visitors to observe the environment thoughtfully.</p>
+          </div>
+        </div>
+
+        <div class="attraction-card" data-type="viewpoint">
+          <div class="attraction-icon">🔊</div>
+          <h3 class="attraction-name">Echo Ravine</h3>
+          <div class="attraction-type-tag">Viewpoint · Adventure</div>
+          <p>Visitors clap or call out and hear their voices return from the valley. Combines science (sound reflection from rock faces and valley shape) with adventure and stunning mountain scenery. Excellent photography opportunities.</p>
+        </div>
+
+        <div class="attraction-card" data-type="cultural">
+          <div class="attraction-icon">🗿</div>
+          <h3 class="attraction-name">Stone Age Park</h3>
+          <div class="attraction-type-tag">Cultural · Adventure</div>
+          <p>Enormous natural rock formations believed to be millions of years old. Narrow rock corridors, climbing viewpoints, and dramatic landscapes. Great for photography, family visits, and educational tours. Discuss Ghana's geological history and weathering processes.</p>
+        </div>
+
+        <div class="attraction-card" data-type="viewpoint">
+          <div class="attraction-icon">🌄</div>
+          <h3 class="attraction-name">Highest Habitable Point (Ramseyer Site)</h3>
+          <div class="attraction-type-tag">Viewpoint · History</div>
+          <p>Breathtaking panoramic views over the Kwahu Escarpment, Afram Plains, and surrounding valleys. Named after Basel missionary Fritz Ramseyer, whose work contributed to Christianity and education in Kwahu. Popular for photography and sunrises/sunsets.</p>
+        </div>
+
+        <div class="attraction-card" data-type="cultural">
+          <div class="attraction-icon">🏺</div>
+          <h3 class="attraction-name">Mpraeso Pottery Experience</h3>
+          <div class="attraction-type-tag">Cultural · Interactive</div>
+          <p>Local women practising hand-built pottery techniques passed down through generations. Visitors can mould their own clay pots under expert guidance — interactive, not just a demonstration. Supports local livelihoods while preserving cultural heritage.</p>
+        </div>
+
+        <div class="attraction-card" data-type="cultural">
+          <div class="attraction-icon">📖</div>
+          <h3 class="attraction-name">Proverbs from Earth</h3>
+          <div class="attraction-type-tag">Cultural · Storytelling</div>
+          <p>Natural rock formations used to teach traditional Akan wisdom. Each location carries a proverb on leadership, unity, perseverance, family, or respect for nature. Visitors engage in storytelling and discussion — tourism meets indigenous knowledge.</p>
+        </div>
+
+        <div class="attraction-card" data-type="nature">
+          <div class="attraction-icon">🏊</div>
+          <h3 class="attraction-name">Freedom Waterfalls</h3>
+          <div class="attraction-type-tag">Nature · Wellness</div>
+          <p>An emerging eco-tourism site where visitors can swim in clean natural pools within unspoiled forest. Promotes relaxation, wellness, and appreciation of Ghana's natural resources.</p>
+          <div class="callout callout--gold">
+            <strong>Safety Note:</strong> Always assess water conditions and prioritise visitor safety before allowing swimming.
+          </div>
+        </div>
+
+        <div class="attraction-card" data-type="adventure">
+          <div class="attraction-icon">🧗</div>
+          <h3 class="attraction-name">Asubone Climbing Festival</h3>
+          <div class="attraction-type-tag">Adventure · Community</div>
+          <p>A community sporting event centred on climbing massive granite boulders. Originally a traditional show of bravery, now an adventure tourism festival. Highlights Kwahu's potential as a rock climbing destination.</p>
+        </div>
+
+        <div class="attraction-card" data-type="nature">
+          <div class="attraction-icon">🚣</div>
+          <h3 class="attraction-name">Afram Lake Canoeing (Mother Trees)</h3>
+          <div class="attraction-type-tag">Nature · Eco-Tourism</div>
+          <p>Guided canoe rides on the Afram Basin. Visit the historic "Mother Trees" — enormous indigenous trees symbolising strength and continuity. Combines birdwatching, storytelling, fishing traditions, and environmental education.</p>
+        </div>
+
+        <div class="attraction-card" data-type="cultural">
+          <div class="attraction-icon">🌙</div>
+          <h3 class="attraction-name">Nightlife in Kwahu South</h3>
+          <div class="attraction-type-tag">Cultural · Entertainment</div>
+          <p>Restaurants, lounges, pubs, music venues, and cultural entertainment. During Easter, Kwahu South becomes one of Ghana's busiest entertainment destinations. Outside Easter, relaxed evening experiences with local hospitality remain available year-round.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── INTERPRETATION ────────────────────────────────────────────────── -->
+    <section class="content-section" id="interpretation">
+      <div class="section-label">Attractions</div>
+      <h2 class="section-title">🎙 Guide Interpretation</h2>
+
+      <div class="interpretation-hero">
+        <blockquote class="big-quote">
+          "Visitors may forget the names of places, but they will always remember the stories and emotions associated with them."
+        </blockquote>
+      </div>
+
+      <div class="card-grid">
+        <div class="card card--accent">
+          <div class="card-tag">The 3 Questions</div>
+          <h3 class="card-title">Ask Yourself About Every Attraction</h3>
+          <div class="three-questions">
+            <div class="question-item">
+              <div class="q-num">1</div>
+              <div class="q-text">Why is this place <strong>important</strong>?</div>
+            </div>
+            <div class="question-item">
+              <div class="q-num">2</div>
+              <div class="q-text">What makes it <strong>unique</strong>?</div>
+            </div>
+            <div class="question-item">
+              <div class="q-num">3</div>
+              <div class="q-text">Why should visitors <strong>care</strong>?</div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-tag">The Standard</div>
+          <h3 class="card-title">What LTK Tours Expects</h3>
+          <p>Never simply identify an attraction. Connect each site to its history, local traditions, environmental significance, and the experiences it offers.</p>
+          <p class="mt-1">An outstanding guide transforms every road, village, mountain, and attraction into a <strong>living story.</strong> This is the hallmark of professional interpretation — and the standard expected of every LTK Tours guide.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CSR ───────────────────────────────────────────────────────────── -->
+    <section class="content-section" id="csr">
+      <div class="section-label">Community</div>
+      <h2 class="section-title">🌱 CSR Initiatives</h2>
+      <p class="section-intro">LTK Tours is more than a tour company. Every guest who travels with us is indirectly contributing to the development of the Kwahu community. Know these initiatives and talk about them naturally.</p>
+
+      <div class="card-grid">
+
+        <div class="card card--accent">
+          <div class="card-tag">Flagship Initiative</div>
+          <h3 class="card-title">MentorHer Ghana (MHG)</h3>
+          <p>The flagship CSR programme directed by LTK Tours founder Kwame Owusu. Focused on mentorship, career guidance, leadership development, life skills, and educational support for young people — particularly girls and vulnerable youth in Kwahu.</p>
+          <div class="tip-box">
+            <span class="tip-icon">🎙</span>
+            <p>Tell tourists: <em>"Every trip you take with us is a small investment in a young person's future here in Kwahu."</em></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">Partner Space</div>
+          <h3 class="card-title">SunGyata</h3>
+          <p>A community development space serving as a meeting point for educational and empowerment activities. Girls and young women participate in mentorship sessions, leadership workshops, and community dialogues here.</p>
+          <p class="mt-1">LTK Tours' collaboration with SunGyata demonstrates the commitment to investing in people beyond tourism — supporting gender equality and continuous learning.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">Digital Skills</div>
+          <h3 class="card-title">Kwahu Ladies in Technology (KLIT)</h3>
+          <p>A youth empowerment initiative preparing young Kwahu women for the digital economy. Training covers content creation, smartphone filmmaking, photography, social media management, digital marketing, and virtual assistance.</p>
+          <p class="mt-1">The vision: young women should not have to migrate to Accra to find work. With the right skills and internet access, they can build careers from Kwahu.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">Education</div>
+          <h3 class="card-title">Community Library Programme</h3>
+          <p>LTK Tours is establishing library facilities in underserved Kwahu schools, including:</p>
+          <ul class="content-list">
+            <li>Obomeng M/A School</li>
+            <li>Mpraeso Royal School</li>
+            <li>Besease M/A School</li>
+            <li>Obo Anglican Experimental School</li>
+          </ul>
+          <p class="mt-1">Functional reading spaces that encourage literacy, independent research, and creativity among pupils — creating tomorrow's tourism professionals and community leaders.</p>
+        </div>
+
+      </div>
+
+      <div class="callout callout--green mt-2">
+        <strong>Tour Guide Note:</strong> When interacting with visitors, emphasise that LTK Tours uses tourism as a vehicle to create employment, preserve cultural heritage, support education, empower women and girls, and promote sustainable growth throughout Kwahu.
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">LTK Tours · Tour Guide Manual</div>
+        <div class="footer-links">
+          <a href="index.html">Manual Home</a>
+          <a href="professional.html">Professional Skills</a>
+        </div>
+        <div class="footer-copy">Kwahu, Eastern Region, Ghana · Confidential Training Material</div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
